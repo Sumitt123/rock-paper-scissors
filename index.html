@@ -3,46 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rock Paper Sessior Game</title>
+  <title>Rock Paper Scissors Game</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Rock Paper Sessior</h1>
-  <div class="choices">
-    <div class="choice" id="rock">
-      <img src="./images/rock.png" alt="Rock">
-      <p>Rock</p>
+  <div class="container">
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src="./images/rock.png" alt="Rock">
+        <p>Rock</p>
+      </div>
+
+      <div class="choice" id="paper">
+        <img src="./images/paper.png" alt="Paper">
+        <p>Paper</p>
+      </div>
+
+      <div class="choice" id="scissors">
+        <img src="./images/sessiors.png" alt="Scissors">
+        <p>Scissors</p>
+      </div>
     </div>
 
-    <div class="choice" id="paper">
-      <img src="./images/paper.png" alt="paper">
-      <p>Paper</p>
+    <div class="score-board">
+      <div class="score">
+        <p id="user-score">0</p>
+        <p>User</p>
+      </div>
+      <div class="score">
+        <p id="comp-score">0</p>
+        <p>Computer</p>
+      </div>
     </div>
 
-    <div class="choice" id="sessiors">
-      <img src="./images/sessiors.png" alt="Rock">
-      <p>sessiors</p>
+    <div class="msg-container">
+      <p id="msg">Play your moves</p>
     </div>
+
+    <button id="reset-btn">Reset Game</button>
   </div>
-
-  <div class="score-board">
-    <div class="score">
-      <p id="user-score">0</p>
-      <p>User</p>
-    </div>
-
-    <div class="score">
-      <p id="comp-score">0</p>
-      <p>Computer</p>
-    </div>
-   </div>
-
-   <div class="msg-container">
-    <p id="msg">Play your moves</p>
-   </div>
-   <!-- Add this in your HTML -->
-<button id="reset-btn">Reset Game</button>
-
 
   <script src="app.js"></script>
 </body>
