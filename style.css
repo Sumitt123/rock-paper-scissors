@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background: #f9fafc;
+}
+
+h1 {
+  background-color: #081b31;
+  color: white;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 3.5rem auto;
+}
+
+.choice {
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.choice:hover {
+  transform: scale(1.15);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+}
+
+.choice img {
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #081b31;
+  background: white;
+  transition: border-color 0.3s ease;
+}
+
+.choice:hover img {
+  border-color: #2a9d8f;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+  gap: 5rem;
+  font-weight: bold;
+  color: #081b31;
+}
+
+#user-score,
+#comp-score {
+  font-size: 4rem;
+  color: #2a9d8f;
+}
+
+.msg-container {
+  margin-top: 2.5rem;
+}
+
+#msg {
+  background-color: #081b31;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-size: 1.8rem;
+  display: inline-block;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+}
+
+/* Reset button (clean + modern) */
+#reset-btn {
+  margin-top: 3rem;
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background: #e63946;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#reset-btn:hover {
+  background: #d62828;
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
