@@ -53,7 +53,7 @@ rock-paper-scissors/
 ## ▶️ How to Play  
 1. Clone this repo:  
    ```bash
-   git clone https://github.com/your-username/rock-paper-scissors.git
+   git clone https://sumitt123.github.io/rock-paper-scissors/
    ```
 2. Open **index.html** in your browser.  
 3. Click **Rock, Paper, or Scissors** to play.  
@@ -62,7 +62,7 @@ rock-paper-scissors/
 ---
 
 ## 🌐 Live Demo  
-👉 [Play Here](https://your-username.github.io/rock-paper-scissors/)  
+👉 [Play Here](https://sumitt123.github.io/rock-paper-scissors/)  
 
 ---
 
